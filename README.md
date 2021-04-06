@@ -14,7 +14,7 @@
   * Unit Tests with xUnit
   
 ## Assumptions
-  * We don't have real database so I created dummy data [
+  * We don't have real database so I created these dummy data [
     {
         "id": 1,
         "name": "Bob"
@@ -27,7 +27,7 @@
         "id": 3,
         "name": "Joe"
     }
-]  in fake implementation of ICustomerService interface, which we are going to inject to our controller at the time of testing.
+] in CustomerService, which I'm going to inject to the controller at the time of testing.
   * The AddCustomer function will automatically increment the last id by 1 as a new customer's id.
   
   
